@@ -21,6 +21,7 @@ df = (
         mean_duration=("duration", "mean"),
         max_duration=("duration", "max"),
         success=("success", "mean"),
+        num_builds=("success", "count"),
     )
     .round(2)
 )
